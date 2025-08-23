@@ -1,5 +1,9 @@
- public class Main {
+import java.util.Arrays;
+
+public class Main {
     public static void main(String[] args) {
-        System.out.println("My name is Donald!");
+        int[][] numbers = new int[2][3];
+        numbers[0][0] = 1;
+        System.out.println(Arrays.toString(numbers));
     }
- }
+ }  
