@@ -1,9 +1,10 @@
-import java.text.NumberFormat;
+import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-      NumberFormat percent = NumberFormat.getPercentInstance();
-      String result = percent.format(0.1);
-      System.out.println(result);
+      Scanner scanner = new Scanner(System.in);
+      System.out.println("Age: ");
+      byte age = scanner.nextByte();
+      System.out.println("You are " + age);
     }
  }  
