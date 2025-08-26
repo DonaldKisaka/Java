@@ -1,11 +1,10 @@
-import java.util.Scanner;
 
 public class Main {
-   static void myMethod() {
-    System.out.println("My name is Donald Kisaka!");
-   }
+   int x = 5;
 
    public static void main(String[] args) {
-    myMethod();
+      Main myObj = new Main();
+      System.out.println(myObj.x);
    }
 }
+
